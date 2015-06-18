@@ -1,0 +1,111 @@
+% Szkielet dla pracy dyplomowej
+%wybrać jeden z poniższych typów dokumentów:
+\documentclass[english, polish, bachelor, a4paper,oneside]{ppciethesis} %praca inżynierska w j. polskim
+%\documentclass[english, polish, a4paper,oneside]{ppciethesis} %praca inżynierska w j. polskim
+%\documentclass[polish, english, bachelor, a4paper,oneside]{ppciethesis} %bachelors thesis in english
+%\documentclass[polish, english, a4paper,oneside]{ppciethesis} %masters thesis in english
+
+\usepackage{polski}%comment this if you are writing in english
+\usepackage[utf8]{inputenc}
+
+%\usepackage[OT4]{fontenc}
+
+\usepackage{hyperref}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{amsfonts}
+\usepackage{pdfpages}
+\usepackage{listings}
+
+\linespread{1}
+
+\author{Tomasz Kostur \and Grzegorz Zachar} % Your name comes here
+\title{Format pracy dyplomowej (projekt~zespołowy)} % Note how we protect the final title phrase from breaking
+\ppsupervisor{dr~hab.~inż.~(Marek Kraft)~profesor~nadzwyczajny} % Your supervisor comes here.
+\ppyear{2015}  % Year of final submission %(not graduation!)
+
+
+\begin{document}
+
+\bibliographystyle{plplain}
+
+% Front matter starts here
+\frontmatter\pagestyle{empty}%
+\maketitle
+\cleardoublepage%
+\Large
+
+\thispagestyle{empty}\vspace*{\fill}
+\cleardoublepage
+
+% Blank info page for "karta dyplomowa"
+\thispagestyle{empty}\vspace*{\fill}%
+\begin{center}Tutaj znajdzie się karta pracy dyplomowej;\\oryginał wstawiamy do wersji dla archiwum PP, w pozostałych kopiach wstawiamy ksero.\end{center}%
+\vfill
+\cleardoublepage
+
+\noindent
+Podziękowania:\\ \\
+\noindent
+W tym miejscu można wstawić podziękowania.\\
+Imię i Nazwisko autora 1
+\\ \\
+\noindent
+Lub nie wstawiać żadnych.\\
+Imię i Nazwisko autora 2
+\\
+\cleardoublepage
+\thispagestyle{empty}\vspace*{\fill}
+\cleardoublepage
+
+% Table of contents.
+\pagenumbering{Roman}\pagestyle{ppfcmthesis}%
+\tableofcontents* \cleardoublepage%
+
+\begin{abstract}
+Obiektem badań pracy jest układ scalony Xillinx Zynq 7000.
+Jest on przedstawicielem nowego typu układów scalonych łączących w sobie
+sekwęcyjny mikroprocesor z programowalnym układem fpga.
+
+Praca przedstawia sposób projektowania oprogramowania tego typu układów w połączeniu
+z systemem operacyjnym linux.
+Aplikacją realizowaną na układzie jest prosty algorytm stereowizyjny.
+Praca zawiera porówania różnego rodzaju implementacji algorytmu, realizowanego
+przy biblioteki OpenCV własnej logiki programowalnej oraz dostarczonego przez
+xillinx DMA implementowanego w fpga. Praca opisuje wady i zalety używania
+systemu linux, licznie napotkane problemy programistyczne lub błędy oprogramowania.
+Praca wskazóje na wiele możliwości optymalizacji aplikacji oraz przedstawia benchmark
+uzyskanych wyników
+\end{abstract}
+
+{
+\selectlanguage{english}
+\begin{abstract}
+In this thesis example format of Institute of Control and Information Engineering thesis is presented.
+\end{abstract}
+}
+\cleardoublepage
+
+% Main content of your thesis starts here.
+\mainmatter%
+\input{01-Wstep.tex}
+\input{02-Stanwiedzy.tex}
+\input{03-Tresc.tex}
+\input{04-Wnioski.tex}
+
+% All appendices and extra material, if you have any.
+\cleardoublepage\appendix%
+\input{0a-Opis_zawartosci_plyty.tex}
+\input{0b-Rysunki_techniczne.tex}
+
+\cleardoublepage
+\listoftables \cleardoublepage %lista tabel na osobnej stronie
+\listoffigures \cleardoublepage %lista rysunków na osobnej stronie
+
+% Bibliography (books, articles) starts here.
+\bibliography{bibliografia}
+
+% Colophon is a place where you should let others know about copyrights etc.
+\ppcolophon
+
+\end{document}

@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{wiki:latex}
+Wikipedia o {\LaTeX}.
+\newblock [online].
+\newblock Dostêpny w Internecie: \url{http://pl.wikipedia.org/wiki/LaTeX}.
+
+\bibitem{latex1}
+Helmut Kopka,  PatrickW. Daly.
+\newblock {\em A Guide to \LaTeX : Document Preparation for Beginners and
+  Advanced Users}.
+\newblock Addison-Wesley Professional, wydanie 4th, 2004.
+
+\end{thebibliography}

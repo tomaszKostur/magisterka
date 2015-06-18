@@ -1,0 +1,98 @@
+% Szkielet dla pracy dyplomowej
+%wybrać jeden z poniższych typów dokumentów:
+\documentclass[english, polish, bachelor, a4paper,oneside]{ppciethesis} %praca inżynierska w j. polskim
+%\documentclass[english, polish, a4paper,oneside]{ppciethesis} %praca inżynierska w j. polskim
+%\documentclass[polish, english, bachelor, a4paper,oneside]{ppciethesis} %bachelors thesis in english
+%\documentclass[polish, english, a4paper,oneside]{ppciethesis} %masters thesis in english
+
+\usepackage[cp1250]{inputenc}
+\usepackage{polski}%comment this if you are writing in english
+\usepackage[OT4]{fontenc}
+
+\usepackage{hyperref}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{amsfonts}
+\usepackage{pdfpages}
+\usepackage{listings}
+
+\linespread{1}
+
+\author{Rafał Kabaciñski \and Mateusz Kowalski} % Your name comes here
+\title{Format pracy dyplomowej (projekt~zespołowy)} % Note how we protect the final title phrase from breaking
+\ppsupervisor{dr~hab.~inż.~(imie i nazwisko promotora)~profesor~nadzwyczajny} % Your supervisor comes here.
+\ppyear{2010}  % Year of final submission %(not graduation!)
+
+
+\begin{document}
+
+\bibliographystyle{plplain}
+
+% Front matter starts here
+\frontmatter\pagestyle{empty}%
+\maketitle
+\cleardoublepage%
+\Large
+
+\thispagestyle{empty}\vspace*{\fill}
+\cleardoublepage
+
+% Blank info page for "karta dyplomowa"
+\thispagestyle{empty}\vspace*{\fill}%
+\begin{center}Tutaj znajdzie siê karta pracy dyplomowej;\\oryginał wstawiamy do wersji dla archiwum PP, w pozostałych kopiach wstawiamy ksero.\end{center}%
+\vfill
+\cleardoublepage
+
+\noindent
+Podziêkowania:\\ \\
+\noindent
+W tym miejscu można wstawić podziêkowania.\\
+Imiê i Nazwisko autora 1
+\\ \\
+\noindent
+Lub nie wstawiać żadnych.\\
+Imiê i Nazwisko autora 2
+\\
+\cleardoublepage
+\thispagestyle{empty}\vspace*{\fill}
+\cleardoublepage
+
+% Table of contents.
+\pagenumbering{Roman}\pagestyle{ppfcmthesis}%
+\tableofcontents* \cleardoublepage%
+
+\begin{abstract}
+W pracy tej zaprezentowano przykżadowy format pracy dyplomowej Instytutu Automatyki i inżynierii informatycznej.
+\end{abstract}
+
+{
+\selectlanguage{english}
+\begin{abstract}
+In this thesis example format of Institute of Control and Information Engineering thesis is presented.
+\end{abstract}
+}
+\cleardoublepage
+
+% Main content of your thesis starts here.
+\mainmatter%
+\input{01-Wstep.tex}
+\input{02-Stanwiedzy.tex}
+\input{03-Tresc.tex}
+\input{04-Wnioski.tex}
+
+% All appendices and extra material, if you have any.
+\cleardoublepage\appendix%
+\input{0a-Opis_zawartosci_plyty.tex}
+\input{0b-Rysunki_techniczne.tex}
+
+\cleardoublepage
+\listoftables \cleardoublepage %lista tabel na osobnej stronie
+\listoffigures \cleardoublepage %lista rysunków na osobnej stronie
+
+% Bibliography (books, articles) starts here.
+\bibliography{bibliografia}
+
+% Colophon is a place where you should let others know about copyrights etc.
+\ppcolophon
+
+\end{document}
