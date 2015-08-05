@@ -18,11 +18,25 @@
 \contentsline {section}{\numberline {3.4}Tabele}{4}{section.3.4}
 \contentsline {section}{\numberline {3.5}Rysunki}{4}{section.3.5}
 \contentsline {section}{\numberline {3.6}Dodawanie pakiet\IeC {\'o}w}{4}{section.3.6}
-\contentsline {section}{\numberline {3.7}Pakiet Bib\textlatin {T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m }}{4}{section.3.7}
-\contentsline {chapter}{\chapternumberline {4}Podsumowanie}{6}{chapter.4}
-\contentsline {appendix}{\chapternumberline {A}Opis zawarto\IeC {\'s}ci p\IeC {\l }yty DVD}{7}{appendix.A}
-\contentsline {section}{\numberline {A.1}Przyk\IeC {\l }adowy podrozdzia\IeC {\l } dodatku}{7}{section.A.1}
-\contentsline {appendix}{\chapternumberline {B}Rysunki techniczne}{8}{appendix.B}
-\contentsline {chapter}{Spis tablic}{10}{section*.4}
-\contentsline {chapter}{Spis rysunk\'ow}{11}{section*.5}
-\contentsline {chapter}{Literatura}{12}{section*.7}
+\contentsline {section}{\numberline {3.7}Pakiet Bib\textlatin {T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m }}{5}{section.3.7}
+\contentsline {chapter}{\chapternumberline {4}Logika Programowalna}{6}{chapter.4}
+\contentsline {section}{\numberline {4.1}Struktura projektowania komponent\IeC {\'o}w logiki programowalnej}{6}{section.4.1}
+\contentsline {section}{\numberline {4.2}Modu\IeC {\l } AXI Centrall DMA}{7}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Central DMA - simple mode}{7}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Central DMA - scatter gather}{7}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Dzia\IeC {\l }anie modu\IeC {\l }u por\IeC {\'o}wnuj\IeC {\k a}cego}{8}{section.4.3}
+\contentsline {section}{\numberline {4.4}Dzia\IeC {\l }anie modu\IeC {\l }u zwracaj\IeC {\k a}cego dysparycje}{11}{section.4.4}
+\contentsline {section}{\numberline {4.5}Dzia\IeC {\l }anie generycznego kodu magistrali axi}{16}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}AXI full}{17}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.6}Narz\IeC {\k e}dzia debugowania}{18}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Behawioralny symulator offline}{19}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Debugowanie poprzez JTAG}{20}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Xillinx Microprocessor Debug}{20}{subsection.4.6.3}
+\contentsline {section}{\numberline {4.7}Napotkane problemy i mo\IeC {\.z}liwo\IeC {\'s}ci optymalizacji}{21}{section.4.7}
+\contentsline {chapter}{\chapternumberline {5}Podsumowanie}{24}{chapter.5}
+\contentsline {appendix}{\chapternumberline {A}Opis zawarto\IeC {\'s}ci p\IeC {\l }yty DVD}{25}{appendix.A}
+\contentsline {section}{\numberline {A.1}Przyk\IeC {\l }adowy podrozdzia\IeC {\l } dodatku}{25}{section.A.1}
+\contentsline {appendix}{\chapternumberline {B}Rysunki techniczne}{26}{appendix.B}
+\contentsline {chapter}{Spis tablic}{28}{section*.11}
+\contentsline {chapter}{Spis rysunk\'ow}{29}{section*.12}
+\contentsline {chapter}{Literatura}{30}{section*.14}

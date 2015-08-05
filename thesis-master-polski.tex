@@ -8,7 +8,7 @@
 \usepackage{polski}%comment this if you are writing in english
 \usepackage[utf8]{inputenc}
 
-%\usepackage[OT4]{fontenc}
+\usepackage[OT4]{fontenc}
 
 \usepackage{hyperref}
 \usepackage{subfig}
@@ -16,6 +16,10 @@
 \usepackage{amsfonts}
 \usepackage{pdfpages}
 \usepackage{listings}
+
+\usepackage{color}
+
+\usepackage{tabularx}
 
 \linespread{1}
 
@@ -40,7 +44,7 @@
 
 % Blank info page for "karta dyplomowa"
 \thispagestyle{empty}\vspace*{\fill}%
-\begin{center}Tutaj znajdzie się karta pracy dyplomowej;\\oryginał wstawiamy do wersji dla archiwum PP, w pozostałych kopiach wstawiamy ksero.\end{center}%
+\begin{center}Tutaaj znajdzie się karta pracy dyplomowej;\\oryginał wstawiamy do wersji dla archiwum PP, w pozostałych kopiach wstawiamy ksero.\end{center}%
 \vfill
 \cleardoublepage
 
@@ -91,6 +95,7 @@ In this thesis example format of Institute of Control and Information Engineerin
 \input{01-Wstep.tex}
 \input{02-Stanwiedzy.tex}
 \input{03-Tresc.tex}
+\input{fpga.tex}
 \input{04-Wnioski.tex}
 
 % All appendices and extra material, if you have any.
